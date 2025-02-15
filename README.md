@@ -2,7 +2,7 @@
 
 En este repositorio se almacena la hoja de vida de Médico General Sebastián Villa García
 
-![Cover image](assets/img/md-slvg-31012025.png)
+![Cover image](assets/img/md-slvg-31012025-short.png)
 
 En la hoja de vida se describe:
 
