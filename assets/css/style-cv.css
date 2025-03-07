@@ -288,7 +288,7 @@
     margin-top: 1.5rem;
   }
   .cv-seccion:nth-child(3) {
-    padding-top: 7rem;
+    padding-top: 5rem;
   }
   .cv-seccion:nth-child(4) {
     padding-top: 11rem;
@@ -316,5 +316,8 @@
   .cv-header {
     color: var(--bg-hard-1);
     border-bottom: 1.2vw solid var(--bg-hard-1-7);
+  }
+  .noprint {
+    display: none;
   }
 }
