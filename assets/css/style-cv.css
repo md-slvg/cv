@@ -24,12 +24,12 @@
 }
 .cv-header .cv-titular h1 {
   font-size: 3vw;
-  letter-spacing: 0.3vw;
+  letter-spacing: 0.2vw;
   text-align: center;
   padding-top: 1vw;
   padding-bottom: 0.3vw;
   margin: 0;
-  text-shadow: 0.2vw 0.25vw 0.3vw var(--bg-light-5);
+  text-shadow: 0.2vw 0.25vw 0.25vw var(--bg-light-5);
 }
 .cv-header .cv-titular p {
   padding-bottom: 0.08vh;
