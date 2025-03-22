@@ -46,6 +46,7 @@
   font-size: 1.65vw;
   letter-spacing: 0.05vw;
   font-weight: 700;
+  font-size: 2.2vw;
 }
 .cv-header .cv-titular p:nth-child(4) {
   font-size: 1.75vw;
@@ -75,11 +76,11 @@
   text-decoration: none;
 }
 .cv-header .cv-foto-l2v2 {
-  width: 25vw;
-  height: 25vw;
+  width: 30vw;
+  height: 30vw;
   position: absolute;
   top: 2vw;
-  left: 3vw;
+  left: 2.3vw;
 }
 .cv-header .cv-foto-l2v2 img {
   border-radius: 50%;
