@@ -283,7 +283,7 @@
 @media print {
   .cv-seccion {
     background-color: unset;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   .cv-seccion:nth-child(2) {
     margin-top: 1.5rem;
