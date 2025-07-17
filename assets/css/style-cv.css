@@ -273,6 +273,9 @@
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
+.d-none {
+  visibility: collapse;
+}
 
 @media screen and (min-width: 1200px) {
   .cv-laboral .cv-card {
@@ -281,22 +284,34 @@
   }
 }
 @media print {
-  .cv-seccion {
+  .cv-seccion:nth-child(1) {
+    /* Resumen profesional */
     background-color: unset;
-    margin-top: 2rem;
-  }
-  .cv-seccion:nth-child(2) {
     margin-top: 1rem;
   }
+  .cv-seccion:nth-child(2) {
+    /* Competencias claves */
+    margin-top: 1.5rem;
+  }
   .cv-seccion:nth-child(3) {
-    padding-top: 3rem;
+    /* Instruccion formal académica */
+    padding-top: 3.8rem;
   }
   .cv-seccion:nth-child(4) {
-    /* Experiencia laboral */
-    padding-top: 5rem;
+    /* Formación complementaria y acreditaciones */
+    padding-top: 0.5rem;
   }
   .cv-seccion:nth-child(5) {
-    padding-top: 5rem;
+    /* Experiencia laboral */
+    padding-top: 0.1rem;
+  }
+  .cv-seccion:nth-child(6) {
+    /* Otras habilidades y destrezas */
+    padding-top: 0.5rem;
+  }
+  .cv-seccion:nth-child(7) {
+    /* Referencias personales */
+    padding-top: 0.5rem;
   }
   .cv-seccion > .cv-seccion-h2 > h2 {
     background: var(--bg-hard-1);
