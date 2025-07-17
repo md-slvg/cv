@@ -319,11 +319,11 @@
   }
   .cv-seccion:nth-child(6) {
     /* Otras habilidades y destrezas */
-    padding-top: 3rem;
+    padding-top: 7.5rem;
   }
   .cv-seccion:nth-child(7) {
     /* Intereses y Actividades Personales */
-    padding-top: 2.5rem;
+    padding-top: 6rem;
   }
   .cv-seccion:nth-child(8) {
     /* Referencias personales */
