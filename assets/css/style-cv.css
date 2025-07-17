@@ -282,8 +282,20 @@
     width: 45vw;
     font-size: 1.1rem;
   }
+  p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+    text-align: justify;
+  }
 }
 @media print {
+  p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    text-align: justify;
+  }
   .cv-seccion:nth-child(1) {
     /* Resumen profesional */
     background-color: unset;
@@ -307,11 +319,15 @@
   }
   .cv-seccion:nth-child(6) {
     /* Otras habilidades y destrezas */
-    padding-top: 0.5rem;
+    padding-top: 3rem;
   }
   .cv-seccion:nth-child(7) {
+    /* Intereses y Actividades Personales */
+    padding-top: 2.5rem;
+  }
+  .cv-seccion:nth-child(8) {
     /* Referencias personales */
-    padding-top: 0.5rem;
+    padding-top: 2.8rem;
   }
   .cv-seccion > .cv-seccion-h2 > h2 {
     background: var(--bg-hard-1);
